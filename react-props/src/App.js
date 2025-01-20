@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-        <UserProfile name={userData.name} age={userData.age} location={userData.location} bio={userData.bio} />
+        <Userprofile name={userData.name} age={userData.age} location={userData.location} bio={userData.bio} />
       </div>
     </>
   );
